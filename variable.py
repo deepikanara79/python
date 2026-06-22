@@ -1,0 +1,11 @@
+name="deepika"
+age=19
+course="python"
+print(name,age,course)
+print(type(name))
+print(type(age))
+print(type(course))
+fruit="mango","apple","banana","grapes"
+print(fruit)
+f1,f2,f3,f4=fruit
+print(f2)
