@@ -1,11 +1,14 @@
-name="deepika"
-age=19
-course="python"
-print(name,age,course)
-print(type(name))
-print(type(age))
-print(type(course))
-fruit="mango","apple","banana","grapes"
-print(fruit)
-f1,f2,f3,f4=fruit
-print(f2)
+#
+#
+# print(slice(a[2:7]))
+#  
+name="    hello all    "
+print(name[-7:-2]) 
+print(name.upper())
+print(name.lower())
+s1="hello"
+s2="world"
+s3=s1+s2
+print(s3)
+print(name.replace("all","world"))
+print(name.strip())
