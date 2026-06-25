@@ -12,14 +12,31 @@ print(age)
 #insert function
 age.insert(2,30)
 print(age)
-#remove function
+#remove function dierct value
 age.remove(10)
 print(age)
-#pop function
+#pop function using index
 age.pop(3)
 print(age)
 #slice function
 print(age[2:4])
 #length of list
 print(len(age))
+#sort function
+age.sort()
+print(age)
+#reverse list
+age.reverse()
+print(age)
+#using for loop in list
+for age in age:
+    print(age)
+#adding two lists
+a=[1,2,3]
+b=[4,5,6]
+c=a+b
+print(c)
+#repetition in list
+d=2*a
+print(d)
 
