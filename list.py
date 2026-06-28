@@ -1,5 +1,7 @@
 age=[10,23,13,14,56]
 print(age)
+#type function
+print(type(age))
 #accessing through index
 print(age[3])
 print(age[-4])
